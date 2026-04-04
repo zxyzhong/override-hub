@@ -394,6 +394,9 @@ proxy-groups:
       - 奶昔-韩国节点
       - PRPR-韩国节点
       - 良心云-韩国节点
+      - 奶昔-All
+      - PRPR-All
+      - 良心云-All
       - 手动切换
 
   - name: 网易音乐
@@ -654,6 +657,9 @@ proxy-groups:
       - 奶昔-韩国节点
       - PRPR-韩国节点
       - 良心云-韩国节点
+      - 奶昔-All
+      - PRPR-All
+      - 良心云-All
 
 rule-providers:
   LocalAreaNetwork:
