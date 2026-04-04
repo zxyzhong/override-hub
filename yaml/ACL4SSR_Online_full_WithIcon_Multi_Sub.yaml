@@ -4,18 +4,24 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
       - DIRECT
 
@@ -37,18 +43,24 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - A-狮城节点
-      - B-狮城节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
-      - A-香港节点
-      - B-香港节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
       - 手动切换
       - DIRECT
 
@@ -59,18 +71,24 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - AI-UNHK
-      - A-狮城节点
-      - B-狮城节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
-      - A-香港节点
-      - B-香港节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
       - 手动切换
       - DIRECT
 
@@ -82,16 +100,21 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - A-狮城节点
-      - B-狮城节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
       - DIRECT
 
@@ -101,18 +124,24 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - A-狮城节点
-      - B-狮城节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
       - DIRECT
 
@@ -123,18 +152,24 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 奈飞节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
       - DIRECT
 
@@ -142,8 +177,9 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
-      - A-台湾节点
-      - B-台湾节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
       - 节点选择
       - 手动切换
       - DIRECT
@@ -153,10 +189,12 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
-      - A-台湾节点
-      - B-台湾节点
-      - A-香港节点
-      - B-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
 
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
@@ -164,18 +202,24 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
       - DIRECT
 
@@ -184,14 +228,18 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
       - 手动切换
 
   - name: 谷歌FCM
@@ -200,18 +248,24 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - A-美国节点
-      - B-美国节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
-      - A-香港节点
-      - B-香港节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
       - 手动切换
 
   - name: 微软Bing
@@ -220,18 +274,24 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - A-美国节点
-      - B-美国节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点  
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
   - name: 微软云盘
@@ -240,18 +300,24 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - A-美国节点
-      - B-美国节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
   - name: 微软服务
@@ -260,18 +326,24 @@ proxy-groups:
     proxies:
       - 节点选择
       - DIRECT
-      - A-美国节点
-      - B-美国节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
   - name: 苹果服务
@@ -280,18 +352,24 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - A-美国节点
-      - B-美国节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
   - name: 游戏平台
@@ -300,18 +378,23 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - A-美国节点
-      - B-美国节点
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
   - name: 网易音乐
@@ -353,112 +436,166 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
-      - A-香港节点
-      - B-香港节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
       - 手动切换
 
-  - name: A-香港节点
+  - name: 奶昔-香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    filter: '(?i)^奶昔\s*\|\s*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-香港节点
+  - name: PRPR-香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    filter: '(?i)^PRPR\s*\|\s*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: A-日本节点
+  - name: 良心云-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^良心云\s*\|\s*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    filter: '(?i)^奶昔\s*\|\s*.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-日本节点
+  - name: PRPR-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    filter: '(?i)^PRPR\s*\|\s*.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: A-美国节点
+  - name: 良心云-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^良心云\s*\|\s*.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    filter: '(?i)^奶昔\s*\|\s*.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-美国节点
+  - name: PRPR-美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    filter: '(?i)^PRPR\s*\|\s*.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: A-台湾节点
+  - name: 良心云-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^良心云\s*\|\s*.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(台|新北|彰化|TW|Taiwan)'
+    filter: '(?i)^奶昔\s*\|\s*.*(台|新北|彰化|TW|Taiwan)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-台湾节点
+  - name: PRPR-台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(台|新北|彰化|TW|Taiwan)'
+    filter: '(?i)^PRPR\s*\|\s*.*(台|新北|彰化|TW|Taiwan)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: A-狮城节点
+  - name: 良心云-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^良心云\s*\|\s*.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(新加坡|坡|狮城|SG|Singapore)'
+    filter: '(?i)^奶昔\s*\|\s*.*(新加坡|坡|狮城|SG|Singapore)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-狮城节点
+  - name: PRPR-狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(新加坡|坡|狮城|SG|Singapore)'
+    filter: '(?i)^PRPR\s*\|\s*.*(新加坡|坡|狮城|SG|Singapore)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: A-韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+  - name: 良心云-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
-    filter: '(?i)^A\s*\|\s*.*(KR|Korea|KOR|首尔|韩|韓)'
+    filter: '(?i)^良心云\s*\|\s*.*(新加坡|坡|狮城|SG|Singapore)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: B-韩国节点
+  - name: 奶昔-韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
-    filter: '(?i)^B\s*\|\s*.*(KR|Korea|KOR|首尔|韩|韓)'
+    filter: '(?i)^奶昔\s*\|\s*.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^PRPR\s*\|\s*.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^良心云\s*\|\s*.*(KR|Korea|KOR|首尔|韩|韓)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -491,15 +628,21 @@ proxy-groups:
       - 广告拦截
       - 应用净化
       - 漏网之鱼
-      - A-香港节点
-      - B-香港节点
-      - A-日本节点
-      - B-日本节点
-      - A-美国节点
-      - B-美国节点
-      - A-台湾节点
-      - B-台湾节点
-      - A-狮城节点
-      - B-狮城节点
-      - A-韩国节点
-      - B-韩国节点
+      - 奶昔-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
