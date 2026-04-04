@@ -584,29 +584,29 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
-- name: 奶昔-All
-  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-  type: url-test
-  include-all: true
-  filter: '(?i)^奶昔-'
-  interval: 300
-  tolerance: 50
-
-- name: PRPR-All
-  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-  type: url-test
-  include-all: true
-  filter: '(?i)^PRPR-'
-  interval: 300
-  tolerance: 50
-
-- name: 良心云-All
-  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-  type: url-test
-  include-all: true
-  filter: '(?i)^良心云-'
-  interval: 300
-  tolerance: 50
+  - name: 奶昔-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^奶昔-'
+    interval: 300
+    tolerance: 50
+  
+  - name: PRPR-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^PRPR-'
+    interval: 300
+    tolerance: 50
+  
+  - name: 良心云-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^良心云-'
+    interval: 300
+    tolerance: 50
 
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
