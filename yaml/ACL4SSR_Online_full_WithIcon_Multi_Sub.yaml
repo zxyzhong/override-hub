@@ -435,24 +435,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
-      - 奶昔-香港节点
-      - PRPR-香港节点
-      - 良心云-香港节点
-      - 奶昔-台湾节点
-      - PRPR-台湾节点
-      - 良心云-台湾节点
-      - 奶昔-狮城节点
-      - PRPR-狮城节点
-      - 良心云-狮城节点
-      - 奶昔-日本节点
-      - PRPR-日本节点
-      - 良心云-日本节点
-      - 奶昔-美国节点
-      - PRPR-美国节点
-      - 良心云-美国节点
-      - 奶昔-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - 奶昔-All
+      - PRPR-All
+      - 良心云-All
       - 手动切换
 
   - name: 奶昔-香港节点
@@ -598,6 +583,30 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+
+- name: 奶昔-All
+  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  type: url-test
+  include-all: true
+  filter: '(?i)^奶昔-'
+  interval: 300
+  tolerance: 50
+
+- name: PRPR-All
+  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  type: url-test
+  include-all: true
+  filter: '(?i)^PRPR-'
+  interval: 300
+  tolerance: 50
+
+- name: 良心云-All
+  icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  type: url-test
+  include-all: true
+  filter: '(?i)^良心云-'
+  interval: 300
+  tolerance: 50
 
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
