@@ -784,7 +784,7 @@ rule-providers:
     format: text
     type: http
   GoogleCN:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/GoogleCN.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleCN.yaml
     path: ./ruleset/GoogleCN.yaml
     behavior: classical
     interval: 86400
