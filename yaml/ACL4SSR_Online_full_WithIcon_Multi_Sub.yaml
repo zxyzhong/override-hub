@@ -753,210 +753,186 @@ rule-providers:
     path: ./ruleset/LocalAreaNetwork.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   UnBan:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/UnBan.yaml
     path: ./ruleset/UnBan.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BanAD:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanAD.yaml
     path: ./ruleset/BanAD.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BanProgramAD:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanProgramAD.yaml
     path: ./ruleset/BanProgramAD.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   GoogleFCM:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleFCM.yaml
     path: ./ruleset/GoogleFCM.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   GoogleCN:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleCN.yaml
     path: ./ruleset/GoogleCN.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   SteamCN:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/SteamCN.yaml
     path: ./ruleset/SteamCN.yaml
     behavior: classical
     interval: 86400
-    format: text
+    type: http
+  OpenAI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OpenAi.yaml
+    path: ./ruleset/OpenAi.yaml
+    behavior: classical
+    interval: 86400
     type: http
   AI-MIX:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/AI.yaml
     path: ./ruleset/AI.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bing:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bing.yaml
     path: ./ruleset/Bing.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   OneDrive:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OneDrive.yaml
     path: ./ruleset/OneDrive.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Microsoft:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Apple:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Apple.yaml
     path: ./ruleset/Apple.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Telegram:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Telegram.yaml
     path: ./ruleset/Telegram.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   NetEaseMusic:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/NetEaseMusic.yaml
     path: ./ruleset/NetEaseMusic.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Epic:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Epic.yaml
     path: ./ruleset/Epic.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Origin:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Origin.yaml
     path: ./ruleset/Origin.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Sony:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Sony.yaml
     path: ./ruleset/Sony.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Steam:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Steam.yaml
     path: ./ruleset/Steam.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Nintendo:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Nintendo.yaml
     path: ./ruleset/Nintendo.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   YouTube:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/YouTube.yaml
     path: ./ruleset/YouTube.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Netflix:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Netflix.yaml
     path: ./ruleset/Netflix.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bahamut:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bahamut.yaml
     path: ./ruleset/Bahamut.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BilibiliHMT:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/BilibiliHMT.yaml
     path: ./ruleset/BilibiliHMT.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bilibili:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bilibili.yaml
     path: ./ruleset/Bilibili.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ChinaMedia:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaMedia.yaml
     path: ./ruleset/ChinaMedia.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ProxyMedia:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyMedia.yaml
     path: ./ruleset/ProxyMedia.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ProxyGFWlist:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyGFWlist.yaml
     path: ./ruleset/ProxyGFWlist.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ChinaDomain:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml
     path: ./ruleset/ChinaDomain.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ChinaCompanyIp:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaCompanyIp.yaml
     path: ./ruleset/ChinaCompanyIp.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Download:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Download.yaml
     path: ./ruleset/Download.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
 
 rules:
@@ -970,6 +946,7 @@ rules:
 
   - "RULE-SET,SteamCN,全球直连"
 
+  - "RULE-SET,OpenAi,AI"
   - "RULE-SET,AI-MIX,AI"
 
   - "RULE-SET,Bing,微软Bing"
