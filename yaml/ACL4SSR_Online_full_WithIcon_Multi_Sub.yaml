@@ -700,8 +700,7 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 电报消息
-      - OpenAi
-      - AI-UNHK
+      - AI
       - 油管视频
       - 奈飞视频
       - 巴哈姆特
@@ -971,7 +970,7 @@ rules:
 
   - "RULE-SET,SteamCN,全球直连"
 
-  - "RULE-SET,AI-MIX,AI-UNHK"
+  - "RULE-SET,AI-MIX,AI"
 
   - "RULE-SET,Bing,微软Bing"
   - "RULE-SET,OneDrive,微软云盘"
