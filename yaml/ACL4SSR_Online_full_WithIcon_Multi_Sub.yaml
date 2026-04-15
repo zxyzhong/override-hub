@@ -388,6 +388,38 @@ proxy-groups:
       - 良心云-韩国节点
       - 手动切换
 
+  - name: 谷歌服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+
   - name: 游戏平台
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
@@ -712,6 +744,7 @@ proxy-groups:
       - 微软云盘
       - 微软服务
       - 苹果服务
+      - 谷歌服务
       - 游戏平台
       - 网易音乐
       - 全球直连
@@ -823,6 +856,12 @@ rule-providers:
   Apple:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Apple.yaml
     path: ./ruleset/Apple.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Google:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Google.yaml
+    path: ./ruleset/Google.yaml
     behavior: classical
     interval: 86400
     type: http
@@ -949,6 +988,7 @@ rules:
   - "RULE-SET,OpenAI,AI"
   - "RULE-SET,AI-MIX,AI"
 
+  - "RULE-SET,Google,谷歌服务"
   - "RULE-SET,Bing,微软Bing"
   - "RULE-SET,OneDrive,微软云盘"
   - "RULE-SET,Microsoft,微软服务"
