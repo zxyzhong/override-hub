@@ -392,7 +392,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
     proxies:
-      - DIRECT
       - 节点选择
       - 奶昔-美国节点
       - VL-美国节点
