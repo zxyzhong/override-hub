@@ -1055,5 +1055,7 @@ rules: #!replace
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
 
+  - "DOMAIN-KEYWORD,emby,EMBY"
+
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
