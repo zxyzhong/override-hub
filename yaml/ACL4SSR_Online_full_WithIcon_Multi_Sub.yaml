@@ -181,6 +181,39 @@ proxy-groups:
       - PRPR-香港节点
       - 良心云-香港节点
 
+  - name: EMBY
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+      - DIRECT
+
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
