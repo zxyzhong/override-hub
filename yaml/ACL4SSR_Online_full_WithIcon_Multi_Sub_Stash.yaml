@@ -1,0 +1,1059 @@
+proxy-groups: #!replace
+  - name: 节点选择
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: select
+    proxies:
+      - 自动选择
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+      - DIRECT
+
+  - name: 手动切换
+    icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+    include-all: true
+    type: select
+
+  - name: 自动选择
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+
+  - name: 电报消息
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+      - DIRECT
+
+  - name: AI
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+      - DIRECT
+
+  - name: 油管视频
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+      - DIRECT
+
+  - name: 奈飞视频
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+      - DIRECT
+
+  - name: 巴哈姆特
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
+    type: select
+    proxies:
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 节点选择
+      - 手动切换
+      - DIRECT
+
+  - name: 哔哩哔哩
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    type: select
+    proxies:
+      - 全球直连
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+
+  - name: EMBY
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+      - DIRECT
+
+  - name: 国外媒体
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+      - DIRECT
+
+  - name: 国内媒体
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
+    type: select
+    proxies:
+      - DIRECT
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 手动切换
+
+  - name: 谷歌FCM
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+
+  - name: 微软Bing
+    icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点  
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+
+  - name: 微软云盘
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+
+  - name: 微软服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+    type: select
+    proxies:
+      - 节点选择
+      - DIRECT
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+
+  - name: 苹果服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+
+  - name: 谷歌服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+    proxies:
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 手动切换
+
+  - name: 游戏平台
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+
+  - name: 网易音乐
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+
+  - name: 全球直连
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+
+  - name: 广告拦截
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 应用净化
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 漏网之鱼
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - DIRECT
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+      - 手动切换
+
+  - name: 奶昔-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^奶昔-*.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^VL-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^良心云-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^VL-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: PRPR-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^良心云-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^VL-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^良心云-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^VL-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^良心云-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^VL-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^良心云-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^VL-.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: '(?i)^良心云-.*(KR|Korea|KOR|首尔|韩|韓)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^奶昔-'
+    interval: 300
+    tolerance: 50
+
+  - name: VL-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^VL-'
+    interval: 300
+    tolerance: 50
+  
+  - name: PRPR-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^PRPR-'
+    interval: 300
+    tolerance: 50
+  
+  - name: 良心云-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^良心云-'
+    interval: 300
+    tolerance: 50
+
+  - name: GLOBAL
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    type: select
+    proxies:
+      - 节点选择
+      - 手动切换
+      - 自动选择
+      - 电报消息
+      - AI
+      - 油管视频
+      - 奈飞视频
+      - 巴哈姆特
+      - 哔哩哔哩
+      - EMBY
+      - 国外媒体
+      - 国内媒体
+      - 谷歌FCM
+      - 微软Bing
+      - 微软云盘
+      - 微软服务
+      - 苹果服务
+      - 谷歌服务
+      - 游戏平台
+      - 网易音乐
+      - 全球直连
+      - 广告拦截
+      - 应用净化
+      - 漏网之鱼
+      - 奶昔-香港节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - 奶昔-日本节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - 奶昔-美国节点
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - 奶昔-台湾节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - 奶昔-狮城节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - 奶昔-韩国节点
+      - VL-韩国节点
+      - PRPR-韩国节点
+      - 良心云-韩国节点
+      - 奶昔-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+
+rule-providers: #!replace
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./ruleset/LocalAreaNetwork.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/UnBan.yaml
+    path: ./ruleset/UnBan.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanAD.yaml
+    path: ./ruleset/BanAD.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanProgramAD.yaml
+    path: ./ruleset/BanProgramAD.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleFCM.yaml
+    path: ./ruleset/GoogleFCM.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleCN.yaml
+    path: ./ruleset/GoogleCN.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  SteamCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/SteamCN.yaml
+    path: ./ruleset/SteamCN.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  OpenAI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OpenAi.yaml
+    path: ./ruleset/OpenAi.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  AI-MIX:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/AI.yaml
+    path: ./ruleset/AI.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bing.yaml
+    path: ./ruleset/Bing.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OneDrive.yaml
+    path: ./ruleset/OneDrive.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Google:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Google.yaml
+    path: ./ruleset/Google.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+    path: ./ruleset/NetEaseMusic.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Epic.yaml
+    path: ./ruleset/Epic.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Origin.yaml
+    path: ./ruleset/Origin.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Sony.yaml
+    path: ./ruleset/Sony.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Steam.yaml
+    path: ./ruleset/Steam.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Nintendo.yaml
+    path: ./ruleset/Nintendo.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bahamut.yaml
+    path: ./ruleset/Bahamut.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: ./ruleset/BilibiliHMT.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bilibili.yaml
+    path: ./ruleset/Bilibili.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaMedia.yaml
+    path: ./ruleset/ChinaMedia.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyMedia.yaml
+    path: ./ruleset/ProxyMedia.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyGFWlist.yaml
+    path: ./ruleset/ProxyGFWlist.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml
+    path: ./ruleset/ChinaDomain.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaCompanyIp.yaml
+    path: ./ruleset/ChinaCompanyIp.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Download.yaml
+    path: ./ruleset/Download.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+
+rules: #!replace
+  - "RULE-SET,LocalAreaNetwork,全球直连"
+  - "RULE-SET,UnBan,全球直连"
+  - "RULE-SET,BanAD,广告拦截"
+  - "RULE-SET,BanProgramAD,应用净化"
+
+  - "RULE-SET,GoogleFCM,谷歌FCM"
+  - "RULE-SET,GoogleCN,全球直连"
+
+  - "RULE-SET,SteamCN,全球直连"
+
+  - "RULE-SET,OpenAI,AI"
+  - "RULE-SET,AI-MIX,AI"
+
+  - "RULE-SET,Google,谷歌服务"
+  - "RULE-SET,Bing,微软Bing"
+  - "RULE-SET,OneDrive,微软云盘"
+  - "RULE-SET,Microsoft,微软服务"
+
+  - "RULE-SET,Telegram,电报消息"
+
+  - "RULE-SET,NetEaseMusic,网易音乐"
+
+  - "RULE-SET,Epic,游戏平台"
+  - "RULE-SET,Origin,游戏平台"
+  - "RULE-SET,Sony,游戏平台"
+  - "RULE-SET,Steam,游戏平台"
+  - "RULE-SET,Nintendo,游戏平台"
+
+  - "RULE-SET,YouTube,油管视频"
+  - "RULE-SET,Netflix,奈飞视频"
+  - "RULE-SET,Bahamut,巴哈姆特"
+  - "RULE-SET,BilibiliHMT,哔哩哔哩"
+  - "RULE-SET,Bilibili,哔哩哔哩"
+
+  - "RULE-SET,ProxyMedia,国外媒体"
+
+  - "RULE-SET,Apple,苹果服务"
+
+  - "RULE-SET,ChinaMedia,国内媒体"
+
+  - "RULE-SET,ProxyGFWlist,节点选择"
+
+  - "RULE-SET,ChinaDomain,全球直连"
+  - "RULE-SET,ChinaCompanyIp,全球直连"
+  - "RULE-SET,Download,全球直连"
+
+  - "GEOIP,CN,全球直连"
+  - "MATCH,漏网之鱼"
