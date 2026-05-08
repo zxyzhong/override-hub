@@ -907,6 +907,7 @@ rules: #!replace
   - "RULE-SET,Download,全球直连"
 
   - "DOMAIN-KEYWORD,emby,EMBY"
+  - "DOMAIN-KEYWORD,iflya,EMBY"
 
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
