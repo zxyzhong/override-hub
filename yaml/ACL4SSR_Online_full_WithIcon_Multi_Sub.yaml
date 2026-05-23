@@ -334,9 +334,6 @@ proxy-groups:
       - VL-Edge
       - PRPR-Edge
       - 良心云-Edge
-      - VL-All
-      - PRPR-All
-      - 良心云-All
       - 手动切换
 
   - name: 微软Bing
