@@ -719,7 +719,7 @@ proxy-groups:
   - name: VL-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: '(?i)^VL-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
+    filter: '(?i)^VL-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -727,7 +727,7 @@ proxy-groups:
   - name: PRPR-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: '(?i)^PRPR-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
+    filter: '(?i)^PRPR-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -735,7 +735,7 @@ proxy-groups:
   - name: 良心云-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: '(?i)^良心云-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
+    filter: '(?i)^良心云-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
