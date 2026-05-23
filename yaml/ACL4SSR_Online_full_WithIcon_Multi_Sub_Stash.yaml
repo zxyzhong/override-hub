@@ -19,9 +19,15 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - VL-All
       - PRPR-All
       - 良心云-All
@@ -70,9 +76,12 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
       - 手动切换
       - DIRECT
 
@@ -97,9 +106,15 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
       - DIRECT
 
@@ -124,9 +139,15 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
       - DIRECT
 
@@ -174,9 +195,42 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - VL-All
       - PRPR-All
       - 良心云-All
+      - 手动切换
+      - DIRECT
+
+  - name: 地区限制
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
       - DIRECT
 
@@ -201,9 +255,15 @@ proxy-groups: #!replace
       - VL-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - VL-All
       - PRPR-All
       - 良心云-All
@@ -247,15 +307,33 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
       - VL-香港节点
       - PRPR-香港节点
       - 良心云-香港节点
-      - VL-All
-      - PRPR-All
-      - 良心云-All
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 微软Bing
@@ -279,12 +357,15 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点  
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
-      - VL-All
-      - PRPR-All
-      - 良心云-All
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 微软云盘
@@ -293,9 +374,30 @@ proxy-groups: #!replace
     proxies:
       - DIRECT
       - 节点选择
-      - VL-All
-      - PRPR-All
-      - 良心云-All
+      - VL-美国节点
+      - PRPR-美国节点
+      - 良心云-美国节点
+      - VL-香港节点
+      - PRPR-香港节点
+      - 良心云-香港节点
+      - VL-台湾节点
+      - PRPR-台湾节点
+      - 良心云-台湾节点
+      - VL-狮城节点
+      - PRPR-狮城节点
+      - 良心云-狮城节点
+      - VL-日本节点
+      - PRPR-日本节点
+      - 良心云-日本节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 微软服务
@@ -319,9 +421,15 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 苹果服务
@@ -345,9 +453,15 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 谷歌服务
@@ -370,9 +484,15 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - 手动切换
 
   - name: 游戏平台
@@ -395,9 +515,15 @@ proxy-groups: #!replace
       - VL-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - VL-All
       - PRPR-All
       - 良心云-All
@@ -470,7 +596,7 @@ proxy-groups: #!replace
     type: url-test
     interval: 300
     tolerance: 50
-
+    
   - name: VL-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
@@ -566,27 +692,78 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
-  - name: VL-韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+  - name: VL-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: '(?i)^VL-.*(KR|Korea|KOR|首尔|韩|韓)'
+    filter: '(?i)^VL-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: PRPR-韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+  - name: PRPR-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: '(?i)^PRPR-.*(KR|Korea|KOR|首尔|韩|韓)'
+    filter: '(?i)^PRPR-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
 
-  - name: 良心云-韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+  - name: 良心云-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: '(?i)^良心云-.*(KR|Korea|KOR|首尔|韩|韓)'
+    filter: '(?i)^良心云-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^VL-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^PRPR-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^良心云-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: VL-Edge
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    filter: '(?i)^VL-'
+    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
+    type: select
+    interval: 300
+    tolerance: 50
+
+  - name: PRPR-Edge
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    filter: '(?i)^PRPR-'
+    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
+    type: select
+    interval: 300
+    tolerance: 50
+
+  - name: 良心云-Edge
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    filter: '(?i)^良心云-'
+    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
+    type: select
     interval: 300
     tolerance: 50
 
@@ -658,9 +835,15 @@ proxy-groups: #!replace
       - VL-狮城节点
       - PRPR-狮城节点
       - 良心云-狮城节点
-      - VL-韩国节点
-      - PRPR-韩国节点
-      - 良心云-韩国节点
+      - VL-英国节点
+      - PRPR-英国节点
+      - 良心云-英国节点
+      - VL-德国节点
+      - PRPR-德国节点
+      - 良心云-德国节点
+      - VL-Edge
+      - PRPR-Edge
+      - 良心云-Edge
       - VL-All
       - PRPR-All
       - 良心云-All
