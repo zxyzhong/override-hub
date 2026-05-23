@@ -132,7 +132,6 @@ proxy-groups:
       - VL-英国节点
       - 良心云-英国节点
       - VL-德国节点
-      - 良心云-德国节点
       - VL-Edge
       - 良心云-Edge
       - 手动切换
@@ -177,7 +176,6 @@ proxy-groups:
       - VL-英国节点
       - 良心云-英国节点
       - VL-德国节点
-      - 良心云-德国节点
       - VL-Edge
       - 良心云-Edge
       - VL-All
@@ -198,7 +196,6 @@ proxy-groups:
       - VL-英国节点
       - 良心云-英国节点
       - VL-德国节点
-      - 良心云-德国节点
       - VL-Edge
       - 良心云-Edge
       - 手动切换
@@ -478,7 +475,6 @@ proxy-groups:
       - 良心云-英国节点
       - VL-德国节点
       - PRPR-德国节点
-      - 良心云-德国节点
       - VL-Edge
       - PRPR-Edge
       - 良心云-Edge
@@ -846,7 +842,6 @@ proxy-groups:
       - 良心云-英国节点
       - VL-德国节点
       - PRPR-德国节点
-      - 良心云-德国节点
       - VL-Edge
       - PRPR-Edge
       - 良心云-Edge
