@@ -28,8 +28,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - VL-All
@@ -85,6 +87,7 @@ proxy-groups:
       - VL-英国节点
       - PRPR-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - 手动切换
       - DIRECT
@@ -272,8 +275,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - 手动切换
@@ -308,8 +313,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - 手动切换
@@ -367,8 +374,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - 手动切换
@@ -403,8 +412,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - 手动切换
@@ -438,8 +449,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - 手动切换
@@ -474,8 +487,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - VL-All
@@ -721,6 +736,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
+  - name: 肯德基-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^肯德基-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE([^A-Za-z0-9]|$)|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: PRPR-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
@@ -733,6 +756,15 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
     filter: '(?i)^VL-'
+    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
+    type: select
+    interval: 300
+    tolerance: 50
+
+  - name: 肯德基-Edge
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    filter: '(?i)^肯德基-'
     exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
     type: select
     interval: 300
@@ -841,8 +873,10 @@ proxy-groups:
       - PRPR-英国节点
       - 良心云-英国节点
       - VL-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
       - VL-Edge
+      - 肯德基-Edge
       - PRPR-Edge
       - 良心云-Edge
       - VL-All
