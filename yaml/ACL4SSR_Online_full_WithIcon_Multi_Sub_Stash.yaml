@@ -909,6 +909,8 @@ rules: #!replace
   - "DOMAIN-KEYWORD,emby,EMBY"
   - "DOMAIN-KEYWORD,iflya,EMBY"
   - "DOMAIN-KEYWORD,youno,EMBY"
+  - "DOMAIN-KEYWORD,zdz,EMBY"
+  - "DOMAIN-KEYWORD,uhd,EMBY"
 
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
