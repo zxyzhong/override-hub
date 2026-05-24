@@ -486,7 +486,6 @@ proxy-groups:
     type: select
     proxies:
       - VL-英国节点
-      - 肯德基-英国节点
       - PRPR-英国节点
       - 良心云-英国节点
 
