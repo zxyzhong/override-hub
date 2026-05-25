@@ -379,7 +379,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     type: load-balance
     proxies:
-      - VL-香港节点
       - VL-高级-香港节点
       - PRPR-香港节点
       - 良心云-香港节点
@@ -399,7 +398,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     type: load-balance
     proxies:
-      - VL-日本节点
       - VL-高级-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
@@ -419,7 +417,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: load-balance
     proxies:
-      - VL-美国节点
       - VL-高级-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
@@ -429,7 +426,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: select
     proxies:
-      - VL-美国节点
       - VL-高级-美国节点
       - 肯德基-美国节点
       - PRPR-美国节点
@@ -439,7 +435,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     type: load-balance
     proxies:
-      - VL-狮城节点
       - VL-高级-狮城节点
       - PRPR-狮城节点
       - 良心云-狮城节点
@@ -459,7 +454,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     type: load-balance
     proxies:
-      - VL-台湾节点
       - VL-高级-台湾节点
       - PRPR-台湾节点
       - 良心云-台湾节点
@@ -479,7 +473,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     type: load-balance
     proxies:
-      - VL-德国节点
       - VL-高级-德国节点
       - PRPR-德国节点
     interval: 300
