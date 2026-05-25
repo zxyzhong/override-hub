@@ -496,17 +496,6 @@ proxy-groups: #!replace
       - PRPR-英国节点
       - 良心云-英国节点
 
-  - name: Fallback
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: fallback
-    proxies:
-      - VL-高级-All
-      - 肯德基-All
-      - VL-All
-      - PRPR-All
-      - 良心云-All
-    interval: 300
-
   - name: VL-香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
@@ -816,6 +805,17 @@ proxy-groups: #!replace
     include-all: true
     exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin'
     type: select
+
+  - name: Fallback
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: fallback
+    proxies:
+      - VL-高级-All
+      - 肯德基-All
+      - VL-All
+      - PRPR-All
+      - 良心云-All
+    interval: 300
 
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
