@@ -426,6 +426,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: select
     proxies:
+      - VL-美国节点
       - VL-高级-美国节点
       - 肯德基-美国节点
       - PRPR-美国节点
