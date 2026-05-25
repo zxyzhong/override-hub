@@ -1,5 +1,4 @@
 proxy-groups: #!replace
-proxy-groups:
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: select
