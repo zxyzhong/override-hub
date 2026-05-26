@@ -380,6 +380,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-香港节点
+      - EIX-香港节点
       - PRPR-香港节点
       - 良心云-香港节点
     interval: 300
@@ -391,6 +392,7 @@ proxy-groups:
       - VL-香港节点
       - VL-高级-香港节点
       - 肯德基-香港节点
+      - EIX-香港节点
       - PRPR-香港节点
       - 良心云-香港节点
 
@@ -399,6 +401,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-日本节点
+      - EIX-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
     interval: 300
@@ -410,6 +413,7 @@ proxy-groups:
       - VL-日本节点
       - VL-高级-日本节点
       - 肯德基-日本节点
+      - EIX-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
 
@@ -418,6 +422,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-美国节点
+      - EIX-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
     interval: 300
@@ -429,6 +434,7 @@ proxy-groups:
       - VL-美国节点
       - VL-高级-美国节点
       - 肯德基-美国节点
+      - EIX-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
 
@@ -437,6 +443,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-狮城节点
+      - EIX-狮城节点
       - PRPR-狮城节点
       - 良心云-狮城节点
     interval: 300
@@ -448,6 +455,7 @@ proxy-groups:
       - VL-狮城节点
       - VL-高级-狮城节点
       - 肯德基-狮城节点
+      - EIX-狮城节点
       - PRPR-狮城节点
       - 良心云-狮城节点
 
@@ -456,6 +464,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-台湾节点
+      - EIX-台湾节点
       - PRPR-台湾节点
       - 良心云-台湾节点
     interval: 300
@@ -467,6 +476,7 @@ proxy-groups:
       - VL-台湾节点
       - VL-高级-台湾节点
       - 肯德基-台湾节点
+      - EIX-台湾节点
       - PRPR-台湾节点
       - 良心云-台湾节点
 
@@ -475,6 +485,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-德国节点
+      - EIX-德国节点
       - PRPR-德国节点
     interval: 300
 
@@ -485,6 +496,7 @@ proxy-groups:
       - VL-德国节点
       - VL-高级-德国节点
       - 肯德基-德国节点
+      - EIX-德国节点
       - PRPR-德国节点
 
   - name: 英国
@@ -493,6 +505,7 @@ proxy-groups:
     proxies:
       - VL-英国节点
       - VL-高级-英国节点
+      - EIX-英国节点
       - PRPR-英国节点
       - 良心云-英国节点
 
@@ -508,6 +521,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: '(?i)^VL-.*(港|HK|hk|Hong Kong|HongKong|hongkong)-[^0-9]'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^EIX-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -552,6 +573,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
+  - name: EIX-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^EIX-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 肯德基-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
@@ -588,6 +617,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: '(?i)^VL-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)-[^0-9]'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^EIX-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -632,6 +669,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
+  - name: EIX-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^EIX-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 肯德基-台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
@@ -668,6 +713,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: '(?i)^VL-.*(新加坡|坡|狮城|SG|Singapore)-[^0-9]'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^EIX-.*(新加坡|坡|狮城|SG|Singapore)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -712,6 +765,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
+  - name: EIX-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
+    include-all: true
+    filter: '(?i)^EIX-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: PRPR-英国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
@@ -740,6 +801,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
     filter: '(?i)^VL-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|(^|[^A-Za-z0-9])DE|Germany|German|Frankfurt|Berlin)-[^0-9]'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^EIX-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -773,6 +842,14 @@ proxy-groups:
     type: url-test
     include-all: true
     filter: '(?i)^VL-[^-]*-[^0-9]'
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^EIX-'
     interval: 300
     tolerance: 50
 
@@ -811,6 +888,7 @@ proxy-groups:
     type: fallback
     proxies:
       - VL-高级-All
+      - EIX-All
       - 肯德基-All
       - VL-All
       - PRPR-All
