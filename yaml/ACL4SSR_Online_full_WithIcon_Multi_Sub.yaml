@@ -624,7 +624,7 @@ proxy-groups:
   - name: EIX-美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
-    filter: '(?i)^EIX-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    filter: '(?i)^EIX-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|United States)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -768,7 +768,7 @@ proxy-groups:
   - name: EIX-英国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: '(?i)^EIX-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
+    filter: '(?i)^EIX-.*(英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -808,7 +808,7 @@ proxy-groups:
   - name: EIX-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: '(?i)^EIX-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
+    filter: '(?i)^EIX-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
