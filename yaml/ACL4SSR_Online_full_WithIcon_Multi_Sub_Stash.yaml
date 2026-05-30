@@ -1014,7 +1014,7 @@ rule-providers: #!replace
     interval: 86400
     type: http
   Google:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Google.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Google.yaml
     path: ./ruleset/Google.yaml
     behavior: classical
     interval: 86400
