@@ -4,17 +4,17 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -40,12 +40,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - Fallback
       - 手动切换
       - DIRECT
@@ -71,12 +71,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -89,12 +89,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - Edge
       - Fallback
@@ -105,7 +105,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
       - 节点选择
       - 手动切换
@@ -116,8 +116,8 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
-      - 香港-流量
-      - 台湾-流量
+      - 香港-聚合
+      - 台湾-聚合
 
   - name: EMBY
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
@@ -125,12 +125,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - 手动切换
       - DIRECT
@@ -141,9 +141,9 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - Edge
       - 手动切换
@@ -155,12 +155,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - Edge
       - 手动切换
@@ -171,10 +171,10 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 香港-流量
-      - 日本-流量
-      - 狮城-流量
-      - 台湾-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 狮城-聚合
+      - 台湾-聚合
       - 手动切换
 
   - name: 谷歌FCM
@@ -183,17 +183,17 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -205,17 +205,11 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-流量
       - 香港
-      - 日本-流量
       - 日本
-      - 美国-流量
       - 美国
-      - 狮城-流量
       - 狮城
-      - 台湾-流量
       - 台湾
-      - 德国-流量
       - 德国
       - 英国
       - Edge
@@ -227,12 +221,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - Edge
       - Fallback
@@ -244,17 +238,17 @@ proxy-groups:
     proxies:
       - 节点选择
       - DIRECT
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -266,17 +260,17 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -287,17 +281,17 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -309,17 +303,17 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
@@ -364,18 +358,18 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
-      - 香港-流量
-      - 日本-流量
-      - 美国-流量
-      - 狮城-流量
-      - 台湾-流量
-      - 德国-流量
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
       - 英国
       - Edge
       - Fallback
       - 手动切换
 
-  - name: 香港-流量
+  - name: 香港-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     type: load-balance
     proxies:
@@ -401,7 +395,7 @@ proxy-groups:
       - 搅局者-香港节点
       - 良心云-香港节点
 
-  - name: 日本-流量
+  - name: 日本-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     type: load-balance
     proxies:
@@ -427,7 +421,7 @@ proxy-groups:
       - 搅局者-日本节点
       - 良心云-日本节点
 
-  - name: 美国-流量
+  - name: 美国-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: load-balance
     proxies:
@@ -453,7 +447,7 @@ proxy-groups:
       - 搅局者-美国节点
       - 良心云-美国节点
 
-  - name: 狮城-流量
+  - name: 狮城-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     type: load-balance
     proxies:
@@ -479,7 +473,7 @@ proxy-groups:
       - 搅局者-狮城节点
       - 良心云-狮城节点
 
-  - name: 台湾-流量
+  - name: 台湾-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     type: load-balance
     proxies:
@@ -505,7 +499,7 @@ proxy-groups:
       - 搅局者-台湾节点
       - 良心云-台湾节点
 
-  - name: 德国-流量
+  - name: 德国-聚合
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     type: load-balance
     proxies:
@@ -1085,17 +1079,17 @@ proxy-groups:
       - 广告拦截
       - 应用净化
       - 漏网之鱼
-      - 香港-流量
+      - 香港-聚合
       - 香港
-      - 日本-流量
+      - 日本-聚合
       - 日本
-      - 美国-流量
+      - 美国-聚合
       - 美国
-      - 狮城-流量
+      - 狮城-聚合
       - 狮城
-      - 台湾-流量
+      - 台湾-聚合
       - 台湾
-      - 德国-流量
+      - 德国-聚合
       - 德国
       - 英国
       - Edge
