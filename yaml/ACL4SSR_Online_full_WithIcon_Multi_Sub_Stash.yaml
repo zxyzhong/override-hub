@@ -384,6 +384,7 @@ proxy-groups: #!replace
       - EIX-香港节点
       - 肯德基-香港节点
       - PRPR-香港节点
+      - 搅局者-香港节点
       - 良心云-香港节点
     interval: 300
 
@@ -397,6 +398,7 @@ proxy-groups: #!replace
       - 饿饭-香港节点
       - EIX-香港节点
       - PRPR-香港节点
+      - 搅局者-香港节点
       - 良心云-香港节点
 
   - name: 日本-流量
@@ -408,6 +410,7 @@ proxy-groups: #!replace
       - EIX-日本节点
       - 肯德基-日本节点
       - PRPR-日本节点
+      - 搅局者-日本节点
       - 良心云-日本节点
     interval: 300
 
@@ -421,6 +424,7 @@ proxy-groups: #!replace
       - 饿饭-日本节点
       - EIX-日本节点
       - PRPR-日本节点
+      - 搅局者-日本节点
       - 良心云-日本节点
 
   - name: 美国-流量
@@ -432,6 +436,7 @@ proxy-groups: #!replace
       - EIX-美国节点
       - 肯德基-美国节点
       - PRPR-美国节点
+      - 搅局者-美国节点
       - 良心云-美国节点
     interval: 300
 
@@ -445,6 +450,7 @@ proxy-groups: #!replace
       - 饿饭-美国节点
       - EIX-美国节点
       - PRPR-美国节点
+      - 搅局者-美国节点
       - 良心云-美国节点
 
   - name: 狮城-流量
@@ -456,6 +462,7 @@ proxy-groups: #!replace
       - EIX-狮城节点
       - 肯德基-狮城节点
       - PRPR-狮城节点
+      - 搅局者-狮城节点
       - 良心云-狮城节点
     interval: 300
 
@@ -469,6 +476,7 @@ proxy-groups: #!replace
       - 饿饭-狮城节点
       - EIX-狮城节点
       - PRPR-狮城节点
+      - 搅局者-狮城节点
       - 良心云-狮城节点
 
   - name: 台湾-流量
@@ -480,6 +488,7 @@ proxy-groups: #!replace
       - EIX-台湾节点
       - 肯德基-台湾节点
       - PRPR-台湾节点
+      - 搅局者-台湾节点
       - 良心云-台湾节点
     interval: 300
 
@@ -493,6 +502,7 @@ proxy-groups: #!replace
       - 饿饭-台湾节点
       - EIX-台湾节点
       - PRPR-台湾节点
+      - 搅局者-台湾节点
       - 良心云-台湾节点
 
   - name: 德国-流量
@@ -504,6 +514,7 @@ proxy-groups: #!replace
       - EIX-德国节点
       - 肯德基-德国节点
       - PRPR-德国节点
+      - 搅局者-德国节点
     interval: 300
 
   - name: 德国
@@ -516,6 +527,7 @@ proxy-groups: #!replace
       - 饿饭-德国节点
       - EIX-德国节点
       - PRPR-德国节点
+      - 搅局者-德国节点
 
   - name: 英国
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
@@ -526,6 +538,7 @@ proxy-groups: #!replace
       - 饿饭-英国节点
       - EIX-英国节点
       - PRPR-英国节点
+      - 搅局者-英国节点
       - 良心云-英国节点
 
   - name: VL-香港节点
@@ -572,6 +585,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: '(?i)^PRPR-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 搅局者-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -632,6 +653,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 搅局者-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 良心云-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
@@ -684,6 +713,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: '(?i)^PRPR-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 搅局者-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -744,6 +781,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 搅局者-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 良心云-台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
@@ -800,6 +845,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 搅局者-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 良心云-狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
@@ -844,6 +897,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
     filter: '(?i)^PRPR-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 搅局者-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -904,6 +965,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 搅局者-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^搅局者-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|DE|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: VL-All
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: url-test
@@ -951,6 +1020,14 @@ proxy-groups: #!replace
     filter: '(?i)^PRPR-'
     interval: 300
     tolerance: 50
+
+  - name: 搅局者-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^搅局者-'
+    interval: 300
+    tolerance: 50
   
   - name: 良心云-All
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
@@ -975,6 +1052,7 @@ proxy-groups: #!replace
       - 肯德基-All
       - VL-All
       - PRPR-All
+      - 搅局者-All
       - 良心云-All
     interval: 300
 
