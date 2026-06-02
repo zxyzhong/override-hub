@@ -382,6 +382,7 @@ proxy-groups: #!replace
       - VL-高级-香港节点
       - 饿饭-香港节点
       - EIX-香港节点
+      - 肯德基-香港节点
       - PRPR-香港节点
       - 良心云-香港节点
     interval: 300
@@ -405,6 +406,7 @@ proxy-groups: #!replace
       - VL-高级-日本节点
       - 饿饭-日本节点
       - EIX-日本节点
+      - 肯德基-日本节点
       - PRPR-日本节点
       - 良心云-日本节点
     interval: 300
@@ -428,6 +430,7 @@ proxy-groups: #!replace
       - VL-高级-美国节点
       - 饿饭-美国节点
       - EIX-美国节点
+      - 肯德基-美国节点
       - PRPR-美国节点
       - 良心云-美国节点
     interval: 300
@@ -451,6 +454,7 @@ proxy-groups: #!replace
       - VL-高级-狮城节点
       - 饿饭-狮城节点
       - EIX-狮城节点
+      - 肯德基-狮城节点
       - PRPR-狮城节点
       - 良心云-狮城节点
     interval: 300
@@ -474,6 +478,7 @@ proxy-groups: #!replace
       - VL-高级-台湾节点
       - 饿饭-台湾节点
       - EIX-台湾节点
+      - 肯德基-台湾节点
       - PRPR-台湾节点
       - 良心云-台湾节点
     interval: 300
@@ -497,6 +502,7 @@ proxy-groups: #!replace
       - VL-高级-德国节点
       - 饿饭-德国节点
       - EIX-德国节点
+      - 肯德基-德国节点
       - PRPR-德国节点
     interval: 300
 
