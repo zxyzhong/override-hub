@@ -1338,6 +1338,7 @@ rules: #!replace
 
   - "DOMAIN-KEYWORD,emby,地区限制"
   - "DOMAIN-KEYWORD,iflya,地区限制"
+  - "DOMAIN-KEYWORD,oceancloud,地区限制"
   - "DOMAIN-KEYWORD,youno,EMBY"
   - "DOMAIN-KEYWORD,zdz,EMBY"
   - "DOMAIN-KEYWORD,uhd,EMBY"
