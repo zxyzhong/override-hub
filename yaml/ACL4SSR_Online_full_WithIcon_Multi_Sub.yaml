@@ -18,6 +18,7 @@ proxy-groups:
       - 德国
       - 英国
       - Edge
+      - Download
       - Fallback
       - 手动切换
       - DIRECT
@@ -229,6 +230,7 @@ proxy-groups:
       - 德国-聚合
       - 英国
       - Edge
+      - Download
       - Fallback
       - 手动切换
 
@@ -317,6 +319,7 @@ proxy-groups:
       - 德国
       - 英国
       - Edge
+      - Download
       - 手动切换
 
   - name: 网易音乐
@@ -366,6 +369,7 @@ proxy-groups:
       - 德国-聚合
       - 英国
       - Edge
+      - Download
       - Fallback
       - 手动切换
 
@@ -1032,6 +1036,7 @@ proxy-groups:
       - 德国
       - 英国
       - Edge
+      - Download
       - Fallback
 
 rule-providers:
