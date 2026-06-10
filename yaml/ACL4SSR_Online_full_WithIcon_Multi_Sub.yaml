@@ -453,7 +453,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     type: select
     proxies:
-      - VL-英国节点
       - VL-高级-英国节点
       - EIX-英国节点
       - PRPR-英国节点
