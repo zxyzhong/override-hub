@@ -772,7 +772,7 @@ proxy-groups:
   - name: Edge
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
-    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin'
+    exclude-filter: '(?i)港|HK|Hong Kong|HongKong|hongkong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|[^A-Za-z]USA[^A-Za-z]|United States|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London|德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin'
     type: select
 
   - name: Download
