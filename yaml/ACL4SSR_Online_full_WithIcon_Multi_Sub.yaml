@@ -66,6 +66,22 @@ proxy-groups:
       - 手动切换
       - DIRECT
 
+  - name: Developer
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Github.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 香港-聚合
+      - 日本-聚合
+      - 美国-聚合
+      - 狮城-聚合
+      - 台湾-聚合
+      - 德国-聚合
+      - 英国
+      - Edge
+      - 手动切换
+
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
@@ -1030,8 +1046,26 @@ rule-providers:
     interval: 86400
     type: http
   Download:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Download.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Download.yaml
     path: ./ruleset/Download.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Developer:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Developer.yaml
+    path: ./ruleset/Developer.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Github:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Github.yaml
+    path: ./ruleset/Github.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Scholar:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Scholar.yaml
+    path: ./ruleset/Scholar.yaml
     behavior: classical
     interval: 86400
     type: http
@@ -1049,6 +1083,10 @@ rules:
 
   - "RULE-SET,OpenAI,AI"
   - "RULE-SET,AI-MIX,AI"
+
+  - "RULE-SET,Developer,Developer"
+  - "RULE-SET,Github,Developer"
+  - "RULE-SET,Scholar,Developer"
 
   - "RULE-SET,YouTube,油管视频"
   - "RULE-SET,Google,谷歌服务"
