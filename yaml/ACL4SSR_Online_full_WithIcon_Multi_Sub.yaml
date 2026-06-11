@@ -67,7 +67,7 @@ proxy-groups:
       - DIRECT
 
   - name: Developer
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Github.png
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
     type: select
     proxies:
       - DIRECT
@@ -1046,25 +1046,25 @@ rule-providers:
     interval: 86400
     type: http
   Download:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Download.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Download.yaml
     path: ./ruleset/Download.yaml
     behavior: classical
     interval: 86400
     type: http
   Developer:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Developer.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Developer.yaml
     path: ./ruleset/Developer.yaml
     behavior: classical
     interval: 86400
     type: http
   Github:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Rulesets/Github.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Github.yaml
     path: ./ruleset/Github.yaml
     behavior: classical
     interval: 86400
     type: http
   Scholar:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Scholar.yaml
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Scholar.yaml
     path: ./ruleset/Scholar.yaml
     behavior: classical
     interval: 86400
