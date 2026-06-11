@@ -785,6 +785,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 搅局者-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^搅局者-'
+    interval: 300
+    tolerance: 50
+
   - name: Edge
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
@@ -797,6 +805,7 @@ proxy-groups: #!replace
     proxies:
       - 良心云-All
       - 低倍率-All
+      - 搅局者-All
     interval: 300
 
   - name: Fallback
@@ -811,6 +820,7 @@ proxy-groups: #!replace
       - VL-All
       - 低倍率-All
       - 良心云-All
+      - 搅局者-All
     interval: 300
 
   - name: GLOBAL
