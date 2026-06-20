@@ -348,8 +348,8 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-香港节点
-      - EIX-香港节点
       - 肯德基-香港节点
+      - EIX-香港节点
       - Dick-香港节点
       - PRPR-香港节点
     interval: 300
@@ -369,8 +369,8 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-日本节点
-      - EIX-日本节点
       - 肯德基-日本节点
+      - EIX-日本节点
       - Dick-日本节点
       - PRPR-日本节点
     interval: 300
@@ -390,8 +390,8 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-美国节点
-      - EIX-美国节点
       - 肯德基-美国节点
+      - EIX-美国节点
       - Dick-美国节点
       - PRPR-美国节点
     interval: 300
@@ -401,8 +401,8 @@ proxy-groups:
     type: select
     proxies:
       - VL-高级-美国节点
-      - EIX-美国节点
       - 肯德基-美国节点
+      - EIX-美国节点
       - Dick-美国节点
       - PRPR-美国节点
 
@@ -411,8 +411,8 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-狮城节点
-      - EIX-狮城节点
       - 肯德基-狮城节点
+      - EIX-狮城节点
       - Dick-狮城节点
       - PRPR-狮城节点
     interval: 300
@@ -422,8 +422,8 @@ proxy-groups:
     type: select
     proxies:
       - VL-高级-狮城节点
-      - EIX-狮城节点
       - 肯德基-狮城节点
+      - EIX-狮城节点
       - Dick-狮城节点
       - PRPR-狮城节点
 
@@ -432,8 +432,9 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-台湾节点
-      - EIX-台湾节点
       - 肯德基-台湾节点
+      - EIX-台湾节点
+      - Dick-台湾节点
       - PRPR-台湾节点
     interval: 300
 
@@ -444,6 +445,7 @@ proxy-groups:
       - VL-高级-台湾节点
       - 肯德基-台湾节点
       - EIX-台湾节点
+      - Dick-台湾节点
       - PRPR-台湾节点
 
   - name: 德国-聚合
@@ -451,8 +453,8 @@ proxy-groups:
     type: load-balance
     proxies:
       - VL-高级-德国节点
-      - EIX-德国节点
       - 肯德基-德国节点
+      - EIX-德国节点
       - PRPR-德国节点
     interval: 300
 
@@ -621,6 +623,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
     filter: '(?i)^PRPR-.*(台|新北|彰化|TW|Taiwan)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: Dick-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^Dick-.*(台|新北|彰化|TW|Taiwan)'
     type: url-test
     interval: 300
     tolerance: 50
