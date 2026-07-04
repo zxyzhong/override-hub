@@ -778,14 +778,6 @@ proxy-groups:
     filter: '(?i)^Dick-'
     interval: 300
     tolerance: 50
-  
-  - name: 良心云-All
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: url-test
-    include-all: true
-    filter: '(?i)^良心云-'
-    interval: 300
-    tolerance: 50
 
   - name: 低倍率-All
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
@@ -813,7 +805,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
     type: load-balance
     proxies:
-      - 良心云-All
       - 低倍率-All
       - 搅局者-All
     interval: 300
@@ -829,7 +820,6 @@ proxy-groups:
       - PRPR-All
       - VL-All
       - 低倍率-All
-      - 良心云-All
       - 搅局者-All
     interval: 300
 
