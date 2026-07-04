@@ -473,6 +473,7 @@ proxy-groups:
     proxies:
       - VL-高级-英国节点
       - EIX-英国节点
+      - Dick-英国节点
       - PRPR-英国节点
  
   - name: VL-高级-香港节点
@@ -695,6 +696,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
     filter: '(?i)^PRPR-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: Dick-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
+    include-all: true
+    filter: '(?i)^Dick-.*(英国|英國|伦敦|倫敦|UK|GB|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
