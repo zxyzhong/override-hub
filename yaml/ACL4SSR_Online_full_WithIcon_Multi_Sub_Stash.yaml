@@ -760,7 +760,6 @@ proxy-groups: #!replace
       - VL-高级-All
       - PRPR-All
       - VL-All
-      - 低倍率-All
       - 搅局者-All
     interval: 300
     
