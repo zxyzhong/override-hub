@@ -347,6 +347,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     type: load-balance
     proxies:
+      - 奶昔-香港节点
       - VL-高级-香港节点
       - EIX-香港节点
       - PRPR-香港节点
@@ -356,6 +357,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     type: select
     proxies:
+      - 奶昔-香港节点
       - VL-高级-香港节点
       - EIX-香港节点
       - PRPR-香港节点
@@ -364,6 +366,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     type: load-balance
     proxies:
+      - 奶昔-日本节点
       - VL-高级-日本节点
       - EIX-日本节点
       - PRPR-日本节点
@@ -373,6 +376,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     type: select
     proxies:
+      - 奶昔-日本节点
       - VL-高级-日本节点
       - EIX-日本节点
       - PRPR-日本节点
@@ -381,6 +385,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: load-balance
     proxies:
+      - 奶昔-美国节点
       - VL-高级-美国节点
       - EIX-美国节点
       - PRPR-美国节点
@@ -390,6 +395,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     type: select
     proxies:
+      - 奶昔-美国节点
       - VL-高级-美国节点
       - EIX-美国节点
       - PRPR-美国节点
@@ -398,6 +404,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     type: load-balance
     proxies:
+      - 奶昔-狮城节点
       - VL-高级-狮城节点
       - EIX-狮城节点
       - PRPR-狮城节点
@@ -407,6 +414,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     type: select
     proxies:
+      - 奶昔-狮城节点
       - VL-高级-狮城节点
       - EIX-狮城节点
       - PRPR-狮城节点
@@ -415,6 +423,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     type: load-balance
     proxies:
+      - 奶昔-台湾节点
       - VL-高级-台湾节点
       - EIX-台湾节点
       - PRPR-台湾节点
@@ -424,6 +433,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     type: select
     proxies:
+      - 奶昔-台湾节点
       - VL-高级-台湾节点
       - EIX-台湾节点
       - PRPR-台湾节点
@@ -432,6 +442,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     type: load-balance
     proxies:
+      - 奶昔-德国节点
       - VL-高级-德国节点
       - EIX-德国节点
       - PRPR-德国节点
@@ -441,6 +452,7 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     type: select
     proxies:
+      - 奶昔-德国节点
       - VL-高级-德国节点
       - EIX-德国节点
       - PRPR-德国节点
@@ -449,9 +461,18 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     type: select
     proxies:
+      - 奶昔-英国节点
       - VL-高级-英国节点
       - EIX-英国节点
       - PRPR-英国节点
+
+  - name: 奶昔-香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
  
   - name: VL-高级-香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
@@ -473,6 +494,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: '(?i)^PRPR-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -501,6 +530,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 奶昔-美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: VL-高级-美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
@@ -521,6 +558,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: '(?i)^PRPR-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(台|新北|彰化|TW|Taiwan)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -549,6 +594,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 奶昔-狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: VL-高级-狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
@@ -569,6 +622,14 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: '(?i)^PRPR-.*(新加坡|坡|狮城|SG|Singapore)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 奶昔-英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -597,6 +658,14 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
+  - name: 奶昔-德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: '(?i)^奶昔-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin)'
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: VL-高级-德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
@@ -620,7 +689,23 @@ proxy-groups: #!replace
     type: url-test
     interval: 300
     tolerance: 50
-    
+
+  - name: 奶昔-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^奶昔-'
+    interval: 300
+    tolerance: 50
+
+  - name: EIX-All
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: url-test
+    include-all: true
+    filter: '(?i)^EIX-'
+    interval: 300
+    tolerance: 50
+
   - name: VL-All
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: url-test
@@ -636,28 +721,12 @@ proxy-groups: #!replace
     filter: '(?i)^VL-[^-]*-[^0-9]'
     interval: 300
     tolerance: 50
-
-  - name: EIX-All
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: url-test
-    include-all: true
-    filter: '(?i)^EIX-'
-    interval: 300
-    tolerance: 50
   
   - name: PRPR-All
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: url-test
     include-all: true
     filter: '(?i)^PRPR-'
-    interval: 300
-    tolerance: 50
-
-  - name: 低倍率-All
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: url-test
-    include-all: true
-    filter: '(?i)^低倍率-'
     interval: 300
     tolerance: 50
 
@@ -679,7 +748,6 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
     type: load-balance
     proxies:
-      - 低倍率-All
       - 搅局者-All
     interval: 300
 
@@ -687,14 +755,15 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: fallback
     proxies:
-      - VL-高级-All
+      - 奶昔-All
       - EIX-All
+      - VL-高级-All
       - PRPR-All
       - VL-All
       - 低倍率-All
       - 搅局者-All
     interval: 300
-
+    
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
