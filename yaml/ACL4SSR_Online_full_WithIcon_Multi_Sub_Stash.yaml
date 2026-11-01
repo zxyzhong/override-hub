@@ -72,12 +72,12 @@ proxy-groups: #!replace
     proxies:
       - DIRECT
       - 节点选择
-      - 香港-聚合
-      - 日本-聚合
-      - 美国-聚合
-      - 狮城-聚合
-      - 台湾-聚合
-      - 德国-聚合
+      - 香港
+      - 日本
+      - 美国
+      - 狮城
+      - 台湾
+      - 德国
       - 英国
       - Edge
       - 手动切换
@@ -157,7 +157,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - 狮城-聚合
       - 台湾-聚合
       - 德国-聚合
@@ -265,12 +264,12 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 节点选择
-      - 香港-聚合
-      - 日本-聚合
-      - 美国-聚合
-      - 狮城-聚合
-      - 台湾-聚合
-      - 德国-聚合
+      - 香港
+      - 日本
+      - 美国
+      - 狮城
+      - 台湾
+      - 德国
       - 英国
       - Edge
       - 手动切换
@@ -348,7 +347,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-香港节点
-      - VL-高级-香港节点
       - EIX-香港节点
       - PRPR-香港节点
     interval: 300
@@ -367,7 +365,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-日本节点
-      - VL-高级-日本节点
       - EIX-日本节点
       - PRPR-日本节点
     interval: 300
@@ -386,7 +383,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-美国节点
-      - VL-高级-美国节点
       - EIX-美国节点
       - PRPR-美国节点
     interval: 300
@@ -405,7 +401,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-狮城节点
-      - VL-高级-狮城节点
       - EIX-狮城节点
       - PRPR-狮城节点
     interval: 300
@@ -424,7 +419,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-台湾节点
-      - VL-高级-台湾节点
       - EIX-台湾节点
       - PRPR-台湾节点
     interval: 300
@@ -443,7 +437,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-德国节点
-      - VL-高级-德国节点
       - EIX-德国节点
       - PRPR-德国节点
     interval: 300
@@ -1019,6 +1012,12 @@ rule-providers: #!replace
     behavior: classical
     interval: 86400
     type: http
+  Gemini:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Gemini.yaml
+    path: ./ruleset/Gemini.yaml
+    behavior: classical
+    interval: 86400
+    type: http
 
 rules: #!replace
   - "RULE-SET,LocalAreaNetwork,全球直连"
@@ -1033,6 +1032,7 @@ rules: #!replace
 
   - "RULE-SET,OpenAI,AI"
   - "RULE-SET,AI-MIX,AI"
+  - "RULE-SET,Gemini,AI"
 
   - "RULE-SET,Developer,Developer"
   - "RULE-SET,Github,Developer"
