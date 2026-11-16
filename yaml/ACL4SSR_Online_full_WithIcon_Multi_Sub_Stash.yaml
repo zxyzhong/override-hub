@@ -342,7 +342,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-香港节点
-      - EIX-香港节点
       - PRPR-香港节点
     interval: 300
 
@@ -351,7 +350,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-香港节点
-      - EIX-香港节点
       - PRPR-香港节点
 
   - name: 日本-聚合
@@ -359,7 +357,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-日本节点
-      - EIX-日本节点
       - PRPR-日本节点
     interval: 300
 
@@ -368,7 +365,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-日本节点
-      - EIX-日本节点
       - PRPR-日本节点
       
   - name: 美国-聚合
@@ -376,7 +372,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-美国节点
-      - EIX-美国节点
       - PRPR-美国节点
     interval: 300
 
@@ -385,7 +380,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-美国节点
-      - EIX-美国节点
       - PRPR-美国节点
 
   - name: 狮城-聚合
@@ -393,7 +387,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-狮城节点
-      - EIX-狮城节点
       - PRPR-狮城节点
     interval: 300
 
@@ -402,7 +395,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-狮城节点
-      - EIX-狮城节点
       - PRPR-狮城节点
 
   - name: 台湾-聚合
@@ -410,7 +402,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-台湾节点
-      - EIX-台湾节点
       - PRPR-台湾节点
     interval: 300
 
@@ -419,7 +410,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-台湾节点
-      - EIX-台湾节点
       - PRPR-台湾节点
 
   - name: 德国-聚合
@@ -427,7 +417,6 @@ proxy-groups: #!replace
     type: load-balance
     proxies:
       - 奶昔-德国节点
-      - EIX-德国节点
       - PRPR-德国节点
     interval: 300
 
@@ -436,7 +425,6 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-德国节点
-      - EIX-德国节点
       - PRPR-德国节点
 
   - name: 英国
@@ -444,21 +432,12 @@ proxy-groups: #!replace
     type: select
     proxies:
       - 奶昔-英国节点
-      - EIX-英国节点
       - PRPR-英国节点
 
   - name: 奶昔-香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: '(?i)^奶昔-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-
-  - name: EIX-香港节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
-    include-all: true
-    filter: '(?i)^EIX-.*(港|HK|hk|Hong Kong|HongKong|hongkong)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -478,14 +457,6 @@ proxy-groups: #!replace
     type: url-test
     interval: 300
     tolerance: 50
-
-  - name: EIX-日本节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
-    include-all: true
-    filter: '(?i)^EIX-.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)'
-    type: url-test
-    interval: 300
-    tolerance: 50
     
   - name: PRPR-日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
@@ -499,14 +470,6 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: '(?i)^奶昔-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|[^A-Za-z]USA[^A-Za-z]|United States)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-    
-  - name: EIX-美国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
-    include-all: true
-    filter: '(?i)^EIX-.*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|[^A-Za-z]US[^A-Za-z]|United States)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -527,14 +490,6 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
-  - name: EIX-台湾节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
-    include-all: true
-    filter: '(?i)^EIX-.*(台|新北|彰化|TW|Taiwan)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-
   - name: PRPR-台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
@@ -547,14 +502,6 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: '(?i)^奶昔-.*(新加坡|坡|狮城|SG|Singapore)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-
-  - name: EIX-狮城节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
-    include-all: true
-    filter: '(?i)^EIX-.*(新加坡|坡|狮城|SG|Singapore)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -575,14 +522,6 @@ proxy-groups: #!replace
     interval: 300
     tolerance: 50
 
-  - name: EIX-英国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
-    include-all: true
-    filter: '(?i)^EIX-.*(英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-
   - name: PRPR-英国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
@@ -595,14 +534,6 @@ proxy-groups: #!replace
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
     filter: '(?i)^奶昔-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin)'
-    type: url-test
-    interval: 300
-    tolerance: 50
-
-  - name: EIX-德国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
-    include-all: true
-    filter: '(?i)^EIX-.*(德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin)'
     type: url-test
     interval: 300
     tolerance: 50
@@ -620,14 +551,6 @@ proxy-groups: #!replace
     type: url-test
     include-all: true
     filter: '(?i)^奶昔-'
-    interval: 300
-    tolerance: 50
-
-  - name: EIX-All
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: url-test
-    include-all: true
-    filter: '(?i)^EIX-'
     interval: 300
     tolerance: 50
   
@@ -650,7 +573,6 @@ proxy-groups: #!replace
     type: fallback
     proxies:
       - 奶昔-All
-      - EIX-All
       - PRPR-All
     interval: 300
     
