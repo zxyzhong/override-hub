@@ -582,7 +582,7 @@ rule-providers:
   ChinaCompanyIp:
     url: https://testingcf.jsdelivr.net/gh/zxyzhong/ACL4SSR@master/Clash/Providers/ChinaCompanyIp.yaml
     path: ./ruleset/ChinaCompanyIp.yaml
-    behavior: classical
+    behavior: ipcidr
     interval: 86400
     type: http
   Download:
