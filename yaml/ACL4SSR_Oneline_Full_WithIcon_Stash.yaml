@@ -630,6 +630,8 @@ rules: #!replace
   - "RULE-SET,OpenAI,AI"
   - "RULE-SET,AI-MIX,AI"
   - "RULE-SET,Gemini,AI"
+  - "DOMAIN-SUFFIX,poe.com,AI"
+  - "DOMAIN-SUFFIX,grok.com,AI"
 
   - "RULE-SET,Developer,Developer"
   - "RULE-SET,Github,Developer"
@@ -662,6 +664,7 @@ rules: #!replace
 
   - "RULE-SET,ProxyGFWlist,节点选择"
 
+  - "DOMAIN-SUFFIX,iqiyi.com,国内媒体"
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
