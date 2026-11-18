@@ -57,6 +57,23 @@ proxy-groups:
       - 英国节点
       - 手动切换
 
+  - name: 国内AI
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
+
   - name: Developer
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
     type: select
@@ -525,6 +542,18 @@ rule-providers:
     behavior: classical
     interval: 86400
     type: http
+  Blizzard:
+    url: https://testingcf.jsdelivr.net/gh/zxyzhong/ACL4SSR@master/Clash/Providers/Ruleset/Blizzard.yaml
+    path: ./ruleset/Blizzard.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Xbox:
+    url: https://testingcf.jsdelivr.net/gh/zxyzhong/ACL4SSR@master/Clash/Providers/Ruleset/Xbox.yaml
+    path: ./ruleset/Xbox.yaml
+    behavior: classical
+    interval: 86400
+    type: http
   YouTube:
     url: https://testingcf.jsdelivr.net/gh/zxyzhong/ACL4SSR@master/Clash/Providers/Ruleset/YouTube.yaml
     path: ./ruleset/YouTube.yaml
@@ -615,6 +644,12 @@ rule-providers:
     behavior: classical
     interval: 86400
     type: http
+  ChinaAI:
+    url: https://testingcf.jsdelivr.net/gh/zxyzhong/ACL4SSR@master/Clash/Providers/Ruleset/ChinaAI.yaml
+    path: ./ruleset/ChinaAI.yaml
+    behavior: classical
+    interval: 86400
+    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
@@ -632,6 +667,8 @@ rules:
   - "RULE-SET,Gemini,AI"
   - "DOMAIN-SUFFIX,poe.com,AI"
   - "DOMAIN-SUFFIX,grok.com,AI"
+  - "RULE-SET,ChinaAI,国内AI"
+  - "DOMAIN-SUFFIX,githubcopilot.com,AI"
 
   - "RULE-SET,Developer,Developer"
   - "RULE-SET,Github,Developer"
@@ -650,6 +687,8 @@ rules:
   - "RULE-SET,Sony,游戏平台"
   - "RULE-SET,Steam,游戏平台"
   - "RULE-SET,Nintendo,游戏平台"
+  - "RULE-SET,Blizzard,游戏平台"
+  - "RULE-SET,Xbox,游戏平台"
 
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,Bahamut,巴哈姆特"
@@ -665,6 +704,9 @@ rules:
   - "RULE-SET,ProxyGFWlist,节点选择"
 
   - "DOMAIN-SUFFIX,iqiyi.com,国内媒体"
+  - "DOMAIN-SUFFIX,iqiyipic.com,国内媒体"
+  - "DOMAIN-SUFFIX,v.qq.com,国内媒体"
+  - "DOMAIN-SUFFIX,video.qq.com,国内媒体"
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
