@@ -1,3 +1,4 @@
+name: 'ACL4SSR 完整版（带图标）'
 proxy-groups: #!replace
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
