@@ -232,6 +232,7 @@ proxy-groups:
   - name: 谷歌服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
+    proxies:
       - 节点选择
       - 自动选择
       - 香港节点
