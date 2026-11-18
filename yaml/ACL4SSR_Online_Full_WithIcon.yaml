@@ -4,105 +4,115 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 台湾节点
-      - 狮城节点
+      - 香港节点
       - 日本节点
       - 美国节点
-      - 韩国节点
-      - 香港节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
       - DIRECT
+      
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
     type: select
+    
   - name: 自动选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true
     interval: 300
     tolerance: 50
+    
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
       - 节点选择
       - 自动选择
-      - 狮城节点
-      - 台湾节点
+      - 香港节点
       - 日本节点
       - 美国节点
-      - 韩国节点
-      - 香港节点
-      - 手动切换
-      - DIRECT
-  - name: OpenAi
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选择
-      - AI-UNHK
       - 狮城节点
       - 台湾节点
-      - 日本节点
-      - 美国节点
-      - 韩国节点
-      - 香港节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
-      - DIRECT
-  - name: AI-UNHK
+      
+  - name: AI
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
-    include-all: true
-    exclude-filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    proxies:
+      - 节点选择
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - 手动切换
+
+  - name: Developer
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
+    type: select
     proxies:
       - 节点选择
       - 自动选择
-      - 狮城节点
-      - 台湾节点
+      - 香港节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
-      - DIRECT
+  
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
     proxies:
       - 节点选择
       - 自动选择
-      - 狮城节点
       - 香港节点
-      - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
-      - DIRECT
+      
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
       - 节点选择
       - 自动选择
-      - 奈飞节点
-      - 狮城节点
       - 香港节点
-      - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
-      - DIRECT
+      
   - name: 巴哈姆特
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
     proxies:
+      - 香港节点
       - 台湾节点
-      - 节点选择
       - 手动切换
-      - DIRECT
+      
   - name: 哔哩哔哩
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
@@ -110,6 +120,34 @@ proxy-groups:
       - 全球直连
       - 台湾节点
       - 香港节点
+
+  - name: EMBY
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
+
+  - name: 地区限制
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
+    type: select
+    proxies:
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
+
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
@@ -117,110 +155,129 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
-      - DIRECT
+      
   - name: 国内媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png
     type: select
     proxies:
       - DIRECT
+      - 节点选择
+      - 自动选择
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
       - 手动切换
+      
   - name: 谷歌FCM
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
     proxies:
       - DIRECT
       - 节点选择
-      - 美国节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
+      - 自动选择
       - 香港节点
-      - 手动切换
-  - name: 微软Bing
-    icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
+      
   - name: 微软云盘
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
     type: select
     proxies:
       - DIRECT
       - 节点选择
-      - 美国节点
+      - 自动选择
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
+      
   - name: 微软服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
-      - 节点选择
       - DIRECT
-      - 美国节点
+      - 节点选择
+      - 自动选择
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
+
+  - name: 谷歌服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+      - 节点选择
+      - 自动选择
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
+
   - name: 苹果服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
     type: select
     proxies:
       - DIRECT
       - 节点选择
-      - 美国节点
+      - 自动选择
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
+      
   - name: 游戏平台
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
     type: select
     proxies:
       - DIRECT
       - 节点选择
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - 手动切换
-  - name: 网易音乐
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
-    type: select
-    include-all: true
-    filter: (?i)网易|音乐|NetEase|Music
-    proxies:
-      - DIRECT
-      - 节点选择
       - 自动选择
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
+      
   - name: 全球直连
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
     type: select
@@ -228,32 +285,38 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自动选择
+      
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
     proxies:
       - REJECT
       - DIRECT
+      
   - name: 应用净化
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
       - REJECT
       - DIRECT
+      
   - name: 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
     proxies:
+      - DIRECT
       - 节点选择
       - 自动选择
-      - DIRECT
       - 香港节点
-      - 台湾节点
-      - 狮城节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 狮城节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
       - 手动切换
+      
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
@@ -261,6 +324,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+    
   - name: 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
@@ -268,6 +332,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+    
   - name: 美国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
@@ -275,13 +340,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 台湾节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
-    include-all: true
-    filter: (?i)台|新北|彰化|TW|Taiwan
-    type: url-test
-    interval: 300
-    tolerance: 50
+
   - name: 狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
@@ -289,271 +348,265 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 韩国节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    
+  - name: 台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 奈飞节点
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
+
+  - name: 德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
-    type: select
+    filter: (?i)德国|德國|德意志|法兰克福|法蘭克福|柏林|[^A-Za-z]DE[^A-Za-z]|Germany|German|Frankfurt|Berlin
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
+  - name: 英国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
+    include-all: true
+    filter: (?i)英国|英國|伦敦|倫敦|[^A-Za-z]UK[^A-Za-z]|[^A-Za-z]GB[^A-Za-z]|Great Britain|Britain|United Kingdom|England|London
+    type: url-test
+    interval: 300
+    tolerance: 50
+    
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
     type: select
     proxies:
+      - DIRECT
       - 节点选择
-      - 手动切换
       - 自动选择
-      - 电报消息
-      - OpenAi
-      - AI-UNHK
-      - 油管视频
-      - 奈飞视频
-      - 巴哈姆特
-      - 哔哩哔哩
-      - 国外媒体
-      - 国内媒体
-      - 谷歌FCM
-      - 微软Bing
-      - 微软云盘
-      - 微软服务
-      - 苹果服务
-      - 游戏平台
-      - 网易音乐
-      - 全球直连
-      - 广告拦截
-      - 应用净化
-      - 漏网之鱼
       - 香港节点
       - 日本节点
       - 美国节点
-      - 台湾节点
       - 狮城节点
-      - 韩国节点
-      - 奈飞节点
+      - 台湾节点
+      - 德国节点
+      - 英国节点
+      - Edge
+      - 手动切换
 
 rule-providers:
   LocalAreaNetwork:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
-    path: ./ruleset/LocalAreaNetwork.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/LocalAreaNetwork.yaml
+    path: ./ruleset/LocalAreaNetwork.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   UnBan:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
-    path: ./ruleset/UnBan.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/UnBan.yaml
+    path: ./ruleset/UnBan.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BanAD:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
-    path: ./ruleset/BanAD.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanAD.yaml
+    path: ./ruleset/BanAD.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BanProgramAD:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
-    path: ./ruleset/BanProgramAD.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanProgramAD.yaml
+    path: ./ruleset/BanProgramAD.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   GoogleFCM:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
-    path: ./ruleset/GoogleFCM.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleFCM.yaml
+    path: ./ruleset/GoogleFCM.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   GoogleCN:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
-    path: ./ruleset/GoogleCN.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleCN.yaml
+    path: ./ruleset/GoogleCN.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   SteamCN:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
-    path: ./ruleset/SteamCN.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/SteamCN.yaml
+    path: ./ruleset/SteamCN.yaml
     behavior: classical
     interval: 86400
-    format: text
+    type: http
+  OpenAI:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OpenAi.yaml
+    path: ./ruleset/OpenAi.yaml
+    behavior: classical
+    interval: 86400
     type: http
   AI-MIX:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
-    path: ./ruleset/AI.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/AI.yaml
+    path: ./ruleset/AI.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bing:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
-    path: ./ruleset/Bing.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bing.yaml
+    path: ./ruleset/Bing.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   OneDrive:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
-    path: ./ruleset/OneDrive.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OneDrive.yaml
+    path: ./ruleset/OneDrive.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Microsoft:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
-    path: ./ruleset/Microsoft.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Apple:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
-    path: ./ruleset/Apple.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Apple.yaml
+    path: ./ruleset/Apple.yaml
     behavior: classical
     interval: 86400
-    format: text
+    type: http
+  Google:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Google.yaml
+    path: ./ruleset/Google.yaml
+    behavior: classical
+    interval: 86400
     type: http
   Telegram:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
-    path: ./ruleset/Telegram.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
     behavior: classical
     interval: 86400
-    format: text
-    type: http
-  OpenAi:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
-    path: ./ruleset/OpenAi.list
-    behavior: classical
-    interval: 86400
-    format: text
     type: http
   NetEaseMusic:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
-    path: ./ruleset/NetEaseMusic.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+    path: ./ruleset/NetEaseMusic.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Epic:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
-    path: ./ruleset/Epic.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Epic.yaml
+    path: ./ruleset/Epic.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Origin:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
-    path: ./ruleset/Origin.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Origin.yaml
+    path: ./ruleset/Origin.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Sony:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
-    path: ./ruleset/Sony.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Sony.yaml
+    path: ./ruleset/Sony.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Steam:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
-    path: ./ruleset/Steam.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Steam.yaml
+    path: ./ruleset/Steam.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Nintendo:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
-    path: ./ruleset/Nintendo.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Nintendo.yaml
+    path: ./ruleset/Nintendo.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   YouTube:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
-    path: ./ruleset/YouTube.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Netflix:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
-    path: ./ruleset/Netflix.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bahamut:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
-    path: ./ruleset/Bahamut.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bahamut.yaml
+    path: ./ruleset/Bahamut.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   BilibiliHMT:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
-    path: ./ruleset/BilibiliHMT.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: ./ruleset/BilibiliHMT.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   Bilibili:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
-    path: ./ruleset/Bilibili.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Bilibili.yaml
+    path: ./ruleset/Bilibili.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ChinaMedia:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
-    path: ./ruleset/ChinaMedia.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaMedia.yaml
+    path: ./ruleset/ChinaMedia.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ProxyMedia:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
-    path: ./ruleset/ProxyMedia.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyMedia.yaml
+    path: ./ruleset/ProxyMedia.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ProxyGFWlist:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
-    path: ./ruleset/ProxyGFWlist.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyGFWlist.yaml
+    path: ./ruleset/ProxyGFWlist.yaml
     behavior: classical
     interval: 86400
-    format: text
     type: http
   ChinaDomain:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
-    path: ./ruleset/ChinaDomain.list
-    behavior: domain
-    interval: 86400
-    format: text
-    type: http
-  ChinaCompanyIp:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
-    path: ./ruleset/ChinaCompanyIp.list
-    behavior: ipcidr
-    interval: 86400
-    format: text
-    type: http
-  Download:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
-    path: ./ruleset/Download.list
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml
+    path: ./ruleset/ChinaDomain.yaml
     behavior: classical
     interval: 86400
-    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaCompanyIp.yaml
+    path: ./ruleset/ChinaCompanyIp.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Download.yaml
+    path: ./ruleset/Download.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Developer:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Developer.yaml
+    path: ./ruleset/Developer.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Github:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Github.yaml
+    path: ./ruleset/Github.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Scholar:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Scholar.yaml
+    path: ./ruleset/Scholar.yaml
+    behavior: classical
+    interval: 86400
+    type: http
+  Gemini:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Gemini.yaml
+    path: ./ruleset/Gemini.yaml
+    behavior: classical
+    interval: 86400
     type: http
 
 rules:
@@ -561,32 +614,51 @@ rules:
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
+
   - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,全球直连"
+
   - "RULE-SET,SteamCN,全球直连"
-  - "RULE-SET,AI-MIX,AI-UNHK"
-  - "RULE-SET,Bing,微软Bing"
+
+  - "RULE-SET,OpenAI,AI"
+  - "RULE-SET,AI-MIX,AI"
+  - "RULE-SET,Gemini,AI"
+
+  - "RULE-SET,Developer,Developer"
+  - "RULE-SET,Github,Developer"
+  - "RULE-SET,Scholar,Developer"
+
+  - "RULE-SET,YouTube,油管视频"
+  - "RULE-SET,Google,谷歌服务"
+  - "RULE-SET,Bing,微软服务"
   - "RULE-SET,OneDrive,微软云盘"
   - "RULE-SET,Microsoft,微软服务"
-  - "RULE-SET,Apple,苹果服务"
+
   - "RULE-SET,Telegram,电报消息"
-  - "RULE-SET,OpenAi,OpenAi"
-  - "RULE-SET,NetEaseMusic,网易音乐"
+
   - "RULE-SET,Epic,游戏平台"
   - "RULE-SET,Origin,游戏平台"
   - "RULE-SET,Sony,游戏平台"
   - "RULE-SET,Steam,游戏平台"
   - "RULE-SET,Nintendo,游戏平台"
-  - "RULE-SET,YouTube,油管视频"
+
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,Bahamut,巴哈姆特"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
-  - "RULE-SET,ChinaMedia,国内媒体"
+
   - "RULE-SET,ProxyMedia,国外媒体"
+
+  - "RULE-SET,Apple,苹果服务"
+
+  - "RULE-SET,ChinaMedia,国内媒体"
+
   - "RULE-SET,ProxyGFWlist,节点选择"
+
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
+
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
+
